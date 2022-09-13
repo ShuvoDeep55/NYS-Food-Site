@@ -1,0 +1,377 @@
+:root{
+    /* font-family: 'Raleway', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;  */
+}
+
+/* Hi I Am Shuvo Sutra Dhar From Mymensingh, Bangladesh.I am a Web-desiger.Please Keep Support.
+
+Project Name : NYS Food Site Re-Design.
+Author : Shuvo Sutra Dhar.
+Email : info.alenshuvo@gmail.com.
+Phone : 01781357360. */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url(/image/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo img{
+    position: absolute;
+    top: -3%;
+    width: 150px;
+    height: 150px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 3%;
+    left: 37%;
+    margin: 20px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: lightgray;
+}
+.navbar ul li a:hover{
+    color: #fff;
+}
+.menu-btn{
+    font-family: 'Open Sans', sans-serif;
+    border: 1.5px solid #fff;
+    padding: 8px 22px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-left: 10px;
+    background: transparent;
+    color: lightgray;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.menu-btn:hover{
+    background: #fff;
+    color: black;
+    font-weight: bold;
+}
+.sub-header{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.sub-header-txt h1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-txt span{
+    color: gold;
+}
+.sub-header-txt p{
+    position: absolute;
+    top: 63%;
+    left: 25%;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 26px;
+    font-size: 18px;
+    color: #fff;
+    /* font-weight: bold; */
+}
+/* =================================== Header Complete==================================== */
+#about-us{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    width: 100%;
+    /* position: absolute; */
+}
+.content-txt{
+    /* position: absolute; */
+}
+.content-header{
+    font-size: 50px;
+    color: dimgray;
+    margin-bottom: 30px;
+}
+.content-para{
+    width: 45%;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-us-img{
+    float: right;
+    padding-top: 60px;
+    padding-right: 30px;
+}
+.about-us-btn{
+    text-decoration: none;
+    border: 2px solid #00db37;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00db37;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00db37;
+}
+/* =================================================================================== */
+#our-menu{
+    width: 100%;
+    height: 135vh;
+    background: black;
+    color: #fff;
+}
+#our-menu .container{
+    text-align: center;
+    padding: 50px;
+}
+#our-menu .container h3{
+    margin-bottom: 20px;
+}
+#our-menu .container h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#our-menu .container h2::after{
+    content: '___________';
+}
+#our-menu .container h2::before{
+    content: '___________';
+}
+#our-menu .container p{
+    font-size: 18px;
+    width: 70%;
+    margin: auto;
+}
+.card-content{
+    width: 40%;
+    border-bottom: 2px solid #fff;
+    padding: 20px 0;
+    margin-left: 30px;
+}
+.card-content p{
+    color: lightgray;
+    margin-top: 5px;
+}
+.menu-btn-02{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #fff;
+    /* border: 2px solid #fff; */
+    margin: 40px auto;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+    border-left: 5px solid green;
+    border-right: 5px solid red;
+    border-bottom: 5px solid deeppink;
+    border-top: 5px solid rgb(156, 255, 7);
+}
+.menu-btn-02:hover{
+    background: deeppink;
+    /* border-radius: 30px; */
+    border: none;
+}
+/* ================================== Complete ==================================== */
+#homemade{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(/image/background-02.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    
+}
+.container{
+    width: 100%;
+    
+}
+.content-txt{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.content-txt .homemade-sub-txt{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.content-txt .homemade-main-txt{
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.content-txt .homemade-para{
+    width: 50%;
+    font-size: 20px;
+    line-height: 26px;
+}
+/* ============================== Complete ================================================= */
+#gallery{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+}
+#gallery .container .card{
+    padding: 10px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#gallery .container .card img{
+    width: 320px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    transition: transform 5s;
+}
+#gallery .container .card img:hover{
+    transform: rotate(360deg);
+}
+/* ============================= Complete ================================= */
+#reservation{
+    width: 100%;
+    height: 100vh;
+    background: url(/image/pine-apple-side.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#reservation .container{
+    position: absolute;
+    padding: 30px;
+    top: 20%;
+}
+#reservation .container .reservation-head{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+#reservation .container .reservation-para{
+    position: absolute;
+    width: 50%;
+    top: 130%;
+    left: 45%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+#reservation .container .reservation-btn{
+    position: absolute;
+    top: 240%;
+    left: 62%;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 25px;
+    color: black;
+    margin-top: 60px;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#reservation .container .reservation-btn:hover{
+    background: #fff;
+    color: #00db37;
+}
+#reservation .container .reservaion-head-02{
+    position: absolute;
+    top: 350%;
+    left: 62%;
+    margin-top: 100px;
+    border-bottom: 3px solid black;
+}
+#reservation .container .phone-number{
+    position: absolute;
+    top: 500%;
+    left: 62%;
+    font-size: 40px;
+    margin-top: 30px;
+}
+/* ================================== Complete ============================= */
+#footer{
+    width: 100%;
+    height: 80vh;
+    background: black;
+    color: #fff;
+}
+#footer .container{
+    padding: 80px 0;
+}
+.card{
+    width: 20%;
+    float: left;
+    margin: 30px;
+}
+.card h2{
+    margin-bottom: 20px;
+}
+.card p{
+    margin-bottom: 20px;
+}
+.card img{
+    margin-bottom: 20px;
+    width: 150px;
+}
+.card a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 40px;
+    /* border-bottom: 1px solid #fff; */
+}
+.card a:hover{
+    color: #00db37;
+    border: none;
+}
+.card .icon{
+    color: #00db37;
+    font-size: 20px;
+    cursor: pointer;
+}
+.copyright-message{
+    color: #00db37; 
+    text-align: left;
+}
+
+
+
+/* ======================= Thank you ======================================== */
